@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="67dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/img_1"
+            android:layout_width="85dp"
+            android:layout_height="match_parent"
+            android:padding="4dp"
+            android:src="@drawable/hinataa"
+
+            />
+
+        <TextView
+            android:textSize="25dp"
+            android:padding="3dp"
+            android:id="@+id/t2"
+            android:text="Hinata"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_toRightOf="@id/img_1"
+            />
+        <ImageView
+            android:id="@+id/ic_call"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/img_1"
+            android:layout_below="@id/t2"
+            android:src="@drawable/ic_m"
+
+            />
+        <TextView
+            android:textSize="13dp"
+            android:padding="3dp"
+            android:id="@+id/t3"
+            android:text="49 Minutes ago "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#4E4C4C"
+            android:layout_below="@id/t2"
+            android:layout_toRightOf="@id/ic_call"
+            />
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="10dp"
+            android:src="@drawable/ic_call"
+            />
+
+
+    </RelativeLayout>
+
+</LinearLayout>
